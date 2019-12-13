@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Kohinoor Devanagari';
+    src: url('fonts/KohinoorDevanagari-Regular.woff2') format('woff2'),
+        url('fonts/KohinoorDevanagari-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor Devanagari';
+    src: url('fonts/KohinoorDevanagari-Medium.woff2') format('woff2'),
+        url('fonts/KohinoorDevanagari-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor Devanagari';
+    src: url('fonts/KohinoorDevanagari-Bold.woff2') format('woff2'),
+        url('fonts/KohinoorDevanagari-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor Devanagari';
+    src: url('fonts/KohinoorDevanagari-Light.woff2') format('woff2'),
+        url('fonts/KohinoorDevanagari-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor Devanagari';
+    src: url('fonts/KohinoorDevanagari-Semibold.woff2') format('woff2'),
+        url('fonts/KohinoorDevanagari-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+
+@import "vars";
+
+
+
+h2 {
+    text-align: center;
+}
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+        width: 33.33%;
+    }
+    .col3 {
+        width: 80%;
+    }
+    .col4 {
+        width: 20%;
+    }
+}
+
+/*Ajuste general*/
+body {
+    .contenedor {
+        max-width: 1350px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+.template-section {
+    
+        padding: 50px 0;
+    
+
+   
+    
+    h1 {
+        color: black;
+       font-family: 'Avenir Roman';
+        font-weight: bold;
+            font-size: 68px;
+        
+    }
+
+    h2 {
+        color: black;
+        font-family: 'Avenir Roman';
+        font-size: 2.5em;
+        font-weight: bold;
+        line-height: 1.3em;
+
+    }
+    h3 {
+        font-family: 'Avenir Roman';
+    }
+
+    p,
+    ul {
+        color: black;
+        font-size: 1.2em;
+       font-family: 'HelveticaNeue';
+    }
+
+    ul {
+        li {
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            &::before {
+               
+                color: black;
+                padding-right: 10px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+
+  
+    }
+
+
+
+
+
+    .btn {
+        transition: all 0.3s ease-in-out;
+       font-family: 'HelveticaNeue';
+            text-transform: none;
+            font-size: 1.2em;
+         -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+            background: black;
+            color: #fff;
+            &:hover {
+                background: white;
+                color: black;
+            }
+        
+    }
+}
+
