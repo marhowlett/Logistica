@@ -155,7 +155,9 @@ Cuernavaca Morelos.</p>
     
         </div>
         </div>
-        <p class="blanco"><span>SÍGUENOS: </span><img class="social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fb.png" alt="Logo"> <img class="social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/tw.png" alt="Logo"> <img class="social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/gg.png" alt="Logo"></p>
+        
+        <p class="blanco"><span>SÍGUENOS: </span> </p>
+       <a href="">  <img class="social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fb.png" alt="Logo"> </a>
      </div>
 </div>
      </div>

@@ -261,6 +261,8 @@ body .contenedor .col {
 }
 #contacto img.social {
   width: 15%;
+  position: relative;
+  left: 100px;
 }
 #contacto h3 {
   text-align: center;
@@ -285,14 +287,14 @@ body .contenedor .col {
 }
 #contacto span {
   position: relative;
-  top: 4px;
+  top: 65px;
   right: 20px;
 }
 #banner {
   padding: 0px;
 }
 #banner h2 {
-  line-height: 56px!important;
+  line-height: 36px!important;
   font-size: 50px;
   text-align: center!important;
 }
@@ -325,12 +327,12 @@ body .contenedor .col {
     flex-wrap: wrap-reverse;
   }
   .template-section a.btn {
-    margin: 0 auto;
-    display: block;
-    margin-top: 25px;
-    padding: 15px;
+    margin: 0 auto!important;
+    display: block!important;
+    margin-top: 25px!important;
+    padding: 15px!important;
     margin-left: 10px!important;
-    margin-right: 10px;
+    margin-right: 10px!important;
   }
   .template-section .col {
     min-height: auto;
@@ -341,9 +343,44 @@ body .contenedor .col {
   }
   #banner h2 {
     font-size: 18px;
-    line-height: 23px!important;
+    line-height: 12px!important;
   }
   #banner a.btn {
     font-size: 17px;
+  }
+  #testimonios img {
+    width: 100%;
+  }
+  #testimonios .col {
+    padding: 30px;
+    min-height: inherit;
+  }
+  #testimonios h3,
+  #testimonios p {
+    text-align: center;
+  }
+  #faq {
+    padding: 50px 20px;
+  }
+  #nosotros {
+    padding-bottom: 50px;
+  }
+  #nosotros .col_especial2 {
+    position: relative;
+    top: 115px;
+    margin-top: -190px;
+    margin-bottom: 50px;
+  }
+  #contacto p.bl2 {
+    position: relative;
+    left: inherit;
+  }
+  #contacto img.social {
+    width: 20%;
+  }
+  #contacto .col.datos {
+    display: block;
+    margin: auto;
+    text-align: center;
   }
 }
